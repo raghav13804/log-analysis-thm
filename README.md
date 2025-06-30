@@ -1,5 +1,22 @@
 # log-analysis-thm
 Basic log analysis to detect suspicious activity using TryHackMe lab.
+
+### Project: Intro to Log Analysis (TryHackMe)
+
+In this project, I used a simulated SOC environment to analyze Windows event logs.  
+I identified failed login attempts, suspicious user activity, and indicators of brute-force attacks.
+
+🛠️ Skills Used:  
+- Log Analysis  
+- Threat Detection  
+- Event Log Correlation  
+- SOC Investigation Thinking
+
+🕵️ Key Findings:  
+- Host: WIN-SERVER-01  
+- Suspicious IP: 203.0.113.4  
+- Pattern: 7 failed login attempts within 2 minutes
+
 Task 3: term = Supertimeline, filehashes.
 Task 4: path = /var/log/nginx/access.log,  Path Traversal
 Task 5: form = automated, Manual  
