@@ -1,27 +1,49 @@
-# log-analysis-thm
-Basic log analysis to detect suspicious activity using TryHackMe lab.
+# Log Analysis – TryHackMe Project
 
-### Project: Intro to Log Analysis (TryHackMe)
+## 📘 Overview
 
-In this project, I used a simulated SOC environment to analyze Windows event logs.  
-I identified failed login attempts, suspicious user activity, and indicators of brute-force attacks.
+This project was completed using the **Intro to Log Analysis** room on [TryHackMe](https://tryhackme.com/).  
+I investigated simulated Windows security logs to detect signs of suspicious activity — a foundational task in real SOC environments.
 
-🛠️ Skills Used:  
-- Log Analysis  
-- Threat Detection  
-- Event Log Correlation  
-- SOC Investigation Thinking
+---
 
-🕵️ Key Findings:  
-- Host: WIN-SERVER-01  
-- Suspicious IP: 203.0.113.4  
-- Pattern: 7 failed login attempts within 2 minutes
+## 🧠 Key Skills Practiced
 
-Task 3: term = Supertimeline, filehashes.
-Task 4: path = /var/log/nginx/access.log,  Path Traversal
-Task 5: form = automated, Manual  
-Task 6: URL = c701d43cc5a3acb9b5b04db7f1be94f6, 52, 145.76.33.201, 31/Jul/2023:12:34:40 +0000
-Task 7: grep = post=2[0-9], Grok 
-Task 8: access log = 212.14.17.145, THM{CYBERCHEF_WIZARD}, 08-2E-9A-4B-7F-61
-Task 9: Language = YAML, title, rule 
+- 🔍 Log Analysis & Threat Detection  
+- 🛡️ Event Log Correlation  
+- ⚙️ Incident Investigation  
+- 🧰 SOC Analyst Workflow Thinking
+
+---
+
+## 🕵️‍♂️ Threat Investigation Highlights
+
+| Task | Focus | Key Finding |
+|------|-------|-------------|
+| 1 | Host Identification | `WIN-SERVER-01` |
+| 2 | Suspicious IP | `203.0.113.4` (multiple failed logins) |
+| 3 | Timeline Log Clue | Found keywords: `Supertimeline`, `filehashes` |
+| 4 | Log Path Analysis | Detected Path Traversal: `/var/log/nginx/access.log` |
+| 5 | Detection Method | Alert Form: `Automated`, `Manual` |
+
+**Pattern:** Detected **7 failed login attempts within 2 minutes** from a single external IP — indicating a brute-force attempt.
+
+---
+
+## 📸 Screenshots
+
+![image](https://github.com/user-attachments/assets/6ee83377-2f4d-45fe-a55a-569d8f8bd492)
+![image](https://github.com/user-attachments/assets/e091dbc4-7621-4d87-ad74-765bcc4fde2d)
+![image](https://github.com/user-attachments/assets/2e5e68f9-e4d3-420f-a610-b8583832a037)
+
+---
+
+## ✅ Lessons Learned
+
+This hands-on lab gave me real-world experience in:
+- Navigating and interpreting log data
+- Detecting anomalies in authentication patterns
+- Practicing the mindset of a SOC Tier 1 Analyst
+
+---
 
